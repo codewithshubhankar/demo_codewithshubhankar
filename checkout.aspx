@@ -8,7 +8,7 @@
         <div class="row px-xl-5">
             <div class="col-12">
                 <nav class="breadcrumb bg-light mb-30">
-                    <a class="breadcrumb-item text-dark" href="#">Home</a>
+                    <a class="breadcrumb-item text-dark" href="Default.aspx">Home</a>
                     <a class="breadcrumb-item text-dark" href="#">Shop</a>
                     <span class="breadcrumb-item active">Checkout</span>
                 </nav>
@@ -143,7 +143,7 @@
                     </div>
                     <div class="border-bottom pt-3 pb-2">
                         <div class="d-flex justify-content-between mb-3">
-                            <h6>Subtotal</h6>
+                            <h6> <%# Eval("Price") %></h6>
                             <h6>$150</h6> <!-- Replace with calculated subtotal -->
                         </div>
                         <div class="d-flex justify-content-between">
