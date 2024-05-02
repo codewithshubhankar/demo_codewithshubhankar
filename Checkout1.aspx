@@ -1,9 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Ecommerce-website/MasterPage.master" AutoEventWireup="true" CodeFile="checkout.aspx.cs" Inherits="Ecommerce_website_checkout" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Ecommerce-website/MasterPage.master" AutoEventWireup="true" CodeFile="Checkout1.aspx.cs" Inherits="Ecommerce_website_Checkout1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <!-- Breadcrumb Start -->
+       <!-- Breadcrumb Start -->
     <div class="container-fluid">
         <div class="row px-xl-5">
             <div class="col-12">
@@ -17,7 +18,7 @@
     </div>
     <!-- Breadcrumb End -->
 
-      <div class="site-section">
+    <div class="site-section">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-12">
@@ -364,7 +365,6 @@
                 }
             }
         </script>
+
 </asp:Content>
-
-
 
